@@ -42,7 +42,7 @@ delay(1000);
     String txtgramos = " Gramos ^FS^XZ";
     String zebra = txtpeso + txtvalorpeso + txtgramos;
     Serial.println("  Peso alto detectado, Imprimiendo");
-    //RS232.print(cuarto); // Código a imprimir
+    //RS232.print(zebra); // Código a imprimir
     }
     delay(200);
 Serial.println("Sacar objeto de la balanza");
